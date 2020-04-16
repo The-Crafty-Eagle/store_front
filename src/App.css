@@ -1,0 +1,57 @@
+:root{
+  --hunter-green: #054905;
+  --light-brown: #894e00;
+  --dark-brown: #4c2b00;
+  --white: #fff;
+  --main-font: 'Architects Daughter', cursive;
+  --off-font: 'Rock Salt', cursive;
+}
+
+.App {
+  text-align: center;
+  font-family: var(--main-font);
+  color: var(--light-brown);
+}
+
+.App-header {
+  background-color: var(--hunter-green);
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--white)
+}
+
+.logo-div{
+  width: 15%;
+  justify-content: flex-start;
+}
+.logo{
+  height: 125px;
+  width:125px;
+}
+
+.nav-div{
+  width: 85%;
+  margin: 0 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-title{
+  font-family: var(--off-font);
+  letter-spacing: .3rem;
+
+}
+
+.text-light{
+  color: var(--light-brown)
+}
+
+.text-dark{
+  color: var(--dark-brown)
+}
+
+.footer{
+  margin: 0 auto;
+}
