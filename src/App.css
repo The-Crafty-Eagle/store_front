@@ -52,6 +52,44 @@
   color: var(--dark-brown)
 }
 
+
+
+
+
+
+
+/* My Css */
+
+.crafty-eagle{
+  background-image: url("./images/crafty-eagle.jpg"); 
+  height: 65vh; 
+  width: 98%;
+  margin: 0 auto;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+}
+
+.shop-now-btn{
+  margin: 30% 0;
+  font-size: 25px;
+  
+}
+.landing-info-div{
+  display: flex;
+}
+
+.landing-info-div > p {
+  width: 50%;
+}
+.dale, .kara{
+  width: 250px;
+  height: 250px;
+}
+
+
+
+
 .footer{
   margin: 0 auto;
 }
