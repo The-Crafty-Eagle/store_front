@@ -21,6 +21,9 @@
   font-size: calc(10px + 2vmin);
   color: var(--white)
 }
+p{
+  font-size: 18px;
+}
 
 .logo-div{
   width: 15%;

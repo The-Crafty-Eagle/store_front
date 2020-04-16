@@ -30,14 +30,15 @@ const LandingPage = () => {
        </ul>
       </p>
       </div>
-      
+      <br/>
       
       <h3 className='text-title'>Who Are We?</h3>
         <p>A couple of kooks in love who love creating and sharing. You can call us The Peoples.</p>
         <div className='landing-info-div'>
-        <p> Him<div className><img src={Dale} alt="Dale" className='dale'/></div>Call Me Dale, I am the Eagle of Woodworking and Outdoor Items</p>
+         <p><h3>Him</h3><div className><img src={Dale} alt="Dale" className='dale' /></div>Call Me Dale, I am the Eagle of Woodworking and Outdoor Items
+        <br/>I can also build custom pieces such as cabinets and tables with chairs</p>
 
-        <p>Her <div><img src={Kara} alt="Kara" className='kara'/></div>Call Me Kara, I am the Crafty part of the team. I do needlework of most types and build Full Stack Web Applications for more information on my career please visit: <a href="https://www.karapeoples.com">karapeoples.com</a></p>
+        <p><h3>Her</h3> <div><img src={Kara} alt="Kara" className='kara'/></div>Call Me Kara, I am the Crafty part of the team. I do needlework of most types. <br/>I ,also, build Full Stack Web Applications for more information on my career please visit: <a href="https://www.karapeoples.com">karapeoples.com</a></p>
       </div>
     </section>
   )
