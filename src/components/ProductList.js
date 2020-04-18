@@ -2,6 +2,9 @@ import React from 'react'
 import Product from './Product'
 
 const ProductList = () => {
+
+	
+
   return (
 			<section>
 				<div>

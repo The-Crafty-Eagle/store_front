@@ -22,7 +22,8 @@
   color: var(--white)
 }
 p{
-  font-size: 18px;
+  font-size: 20px;
+  
 }
 
 .logo-div{
@@ -36,11 +37,22 @@ p{
 
 .nav-div{
   width: 85%;
-  margin: 0 1%;
+  margin-left: 70%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+.nav-btn{
+  width: 100%;
+  background-color: var(--dark-brown);
+  border: 5px groove var(--light-brown);
+  color: var(--white);
 }
 
+.nav-btn:hover{
+  background-color: var(--light-brown);
+  border: 5px groove var(--dark-brown);
+  color: var(--white);
+}
 .text-title{
   font-family: var(--off-font);
   letter-spacing: .3rem;
@@ -76,12 +88,22 @@ p{
 .shop-now-btn{
   margin: 30% 0;
   font-size: 25px;
+  background-color: var(--dark-brown);
+  border: 5px groove var(--light-brown);
+  color: var(--white);
+}
   
+.shop-now-btn:hover{
+ background-color: var(--light-brown);
+  border: 5px groove var(--dark-brown);
+  color: var(--white); 
 }
 .landing-info-div{
   display: flex;
 }
-
+.landing-list{
+  line-height: 2;
+}
 .landing-info-div > p {
   width: 50%;
 }
