@@ -1,7 +1,8 @@
 import React from 'react'
 import Dale from '../images/Dale.JPG'
 import Kara from '../images/RubyKara500.jpg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 
 const LandingPage = () => {
   return (
@@ -17,7 +18,7 @@ const LandingPage = () => {
 				<br />
 				<div>
 					<h2 className='text-title'>What We Do?</h2>
-					<p>
+					<span>
           We make artisan and custom crafts:
 						<ul className='landing-list'>
 							<li>Wood Working <span role='img' aria-label='wood tools'>🔨🧰</span></li>
@@ -29,31 +30,32 @@ const LandingPage = () => {
 							<li>Web Sites such as this and Others <span role='img' aria-label='computers'>🖥️💻</span></li>
 							<li>and More with More to Come as We Learn New Skills <span role='img' aria-label='other tools'>🧷🎨🖌️🧩</span></li>
 						</ul>
-					</p>
+					</span>
 				</div>
 				<br />
 
 				<h3 className='text-title'>Who Are We?</h3>
 				<p>A couple of kooks in love who love creating and sharing. You can call us The Peoples.</p>
 				<div className='landing-info-div'>
-					<p>
+					<span>
 						<h3>Him</h3>
-						<div className>
+						<div>
 							<img src={Dale} alt='Dale' className='dale' />
 						</div>
-						Call Me Dale, I am the Eagle of Woodworking and Outdoor Items
-						<br />I can also build custom pieces such as cabinets and tables with chairs
-					</p>
+						<p>Call Me Dale, I am the Eagle of Woodworking and Outdoor Items
+						I can also build custom pieces such as cabinets and tables with chairs</p>
+					</span>
 
-					<p>
-						<h3>Her</h3>{' '}
+					<span>
+						<h3>Her</h3>
 						<div>
 							<img src={Kara} alt='Kara' className='kara' />
 						</div>
-						Call Me Kara, I am Crafty and I do needlework and indoor crafts. <br />I ,also, build Full Stack Web
-						Applications for more information on my career please visit:{' '}
+						<p>Call Me Kara, I am Crafty and I do needlework and indoor crafts. <br />I ,also, build Full Stack Web
+						Applications for more information on my career please visit:
 						<a href='https://www.karapeoples.com'>karapeoples.com</a>
 					</p>
+					</span>
 				</div>
 			</section>
 		)

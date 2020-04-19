@@ -8,6 +8,7 @@ const Footer =() =>{
 						<i className='fas fa-copyright'/>
 					</span>
 					<span> The Crafty Eagle 2020</span>
+					<div>I claim no rights to the current product images</div>
 				</h5>
 			</div>
 		)
